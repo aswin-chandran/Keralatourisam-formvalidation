@@ -18,7 +18,7 @@ function validate() {
     msg.innerHTML = "";
   } else if (!pregexp.test(pwd)) {
     pmsg.innerHTML =
-      " Minimum 8 characters, at least one uppercase, and one lower case, must contain at least one number";
+      " Incorrect Password";
     pmsg.style.color = "red";
   } else {
     pmsg.innerHTML = "You have successfully logged in";
