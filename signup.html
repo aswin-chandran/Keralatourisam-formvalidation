@@ -89,8 +89,9 @@
           <span id="msg"></span>
         </div>
         <div class="form-floating">
-          <input type="password" class="form-control" id="pwd" placeholder="Password">
+          <input type="password" class="form-control" id="pwd" onkeydown="strength()" placeholder="Password">
           <label for="floatingPassword">Password</label><br>
+          <p id="str"></p>
           <span id="pmsg"></span>
           <br>
         </div>

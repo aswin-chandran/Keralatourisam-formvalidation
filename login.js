@@ -7,6 +7,7 @@ function validate() {
   var regexp =
     /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
   var pregexp = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,20}$/;
+  
   if (uname == "") {
     alert("Enter Email id");
   } else if (!regexp.test(uname)) {
